@@ -1,0 +1,33 @@
+.navbar li {
+ margin-left: 2rem;
+}
+
+.carsize {
+ height: 450px;
+ object-fit: cover;
+ object-position: 10% 10%;
+}
+
+
+.card img {
+ height: 250px;
+ object-fit: cover;
+ object-position: 50% 0%;
+}
+
+a {
+ color: #ffffff !important;
+}
+
+@media (max-width: 576px) { 
+ .carsize {
+  height: 250px;
+ }
+
+ }
+
+@media (max-width: 768px) { 
+ .carsize {
+  height: 350px;
+ }
+ }
